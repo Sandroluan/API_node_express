@@ -41,7 +41,7 @@ connection.connect((err) => {
       console.log('erro para criar a tabela')
       return;
     }
-    console.log('tabela criada com suscesso')
+    console.log('tabela criada com sucesso')
 
     app.listen(port, ()=>{
       console.log(`http://localhost:${port}`)
